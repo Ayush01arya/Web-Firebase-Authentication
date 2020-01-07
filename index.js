@@ -5,8 +5,8 @@ var firebaseConfig = {
     projectId: "new-firebase-login",
     storageBucket: "new-firebase-login.appspot.com",
     messagingSenderId: "<YOUR MSG ID>",
-    appId: "<YOUR APPID>",
-    measurementId: "<YOUR MEASUREMENT ID>"
+    appId: "<YOUR APP ID>",
+    measurementId: "< YOUR MEASUREMENT ID>"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
