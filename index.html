@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FireBase Login</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i&display=swap"
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    
+        <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+
+<!-- <div class="main-div">
+        <h1 class="uk-heading-line uk-text-center"><span>Heading Line</span></h1>
+</div> -->
+<div style="height:650px;width:auto;" class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover " data-src="imgimg.jpg" uk-img>
+        <div id="login_div" class="uk-card uk-card-default uk-card-hover uk-card-body priyal">
+            <h3 class="uk-card-title uk-text-center uk-heading-divider">FireBase Web Login</h3>
+
+            <form>
+
+                    <div class="uk-margin" style="text-align: center;">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon" uk-icon="icon: user"></span>
+                            <input class="uk-input" type="email" placeholder="email..." id="email_field"/>
+                        </div>
+                    </div>
+                
+                    <div class="uk-margin" style="text-align: center;">
+                        <div class="uk-inline">
+                            <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                            <input class="uk-input" type="password" id="password_field" placeholder="password..."/>
+                        </div>
+                    </div>
+                
+                </form>
+                <button onclick="login()" class="uk-button uk-button-primary uk-button-large">Login</button>
+
+        </div>
+
+
+
+        <div id="user_div" class="uk-card uk-card-small uk-card-default uk-card-hover priyal  uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover">
+                <h1 style="padding-top:50px;">Welcome User</h1>
+                <p id="user_para">welcome to firebase login.currently you are login.</p>
+                <button onclick="logout()" class="uk-button uk-button-primary uk-button-large">LogOut</button>
+        
+            </div>
+
+    </div>
+
+
+    <!-- <div id="user_div" class="uk-card uk-card-small uk-card-default uk-card-hover priyal  uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover">
+        <h1>Welcome User</h1>
+        <p id="user_para">welcome to firebase login.currently you are login.</p>
+        <button onclick="logout()" class="uk-button uk-button-primary uk-button-large">LogOut</button>
+
+    </div> -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+
+<script>
+    
+  // Your web app's Firebase configuration
+//   var firebaseConfig = {
+//     apiKey: "AIzaSyD0sjKzuCFJ3-UnrO9L7iBWngTTVUehLe4",
+//     authDomain: "new-firebase-login.firebaseapp.com",
+//     databaseURL: "https://new-firebase-login.firebaseio.com",
+//     projectId: "new-firebase-login",
+//     storageBucket: "new-firebase-login.appspot.com",
+//     messagingSenderId: "429523363131",
+//     appId: "1:429523363131:web:c641ef85424b2a653d831e",
+//     measurementId: "G-8NM4ZMPQ0V"
+//   };
+//   // Initialize Firebase
+//   firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();
+</script>
+<script  src="index.js"></script>
+
+    </body>
+
+</html>

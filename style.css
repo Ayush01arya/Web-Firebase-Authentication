@@ -1,0 +1,19 @@
+.main-div{
+    
+}
+
+.priyal{
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    border-radius: 25px;
+    opacity: 40px;
+}
+
+body{
+    /* <img src="FireBase Login/imgimg.jpg" width="1800" height="1200" alt="" uk-img> */
+
+    background-color: aqua;
+    height:100%;
+    width:100%; 
+}
