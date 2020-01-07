@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyD0sjKzuCFJ3-UnrO9L7iBWngTTVUehLe4",
+    apiKey: "<YOUR API KEY>",
     authDomain: "new-firebase-login.firebaseapp.com",
     databaseURL: "https://new-firebase-login.firebaseio.com",
     projectId: "new-firebase-login",
     storageBucket: "new-firebase-login.appspot.com",
-    messagingSenderId: "429523363131",
-    appId: "1:429523363131:web:c641ef85424b2a653d831e",
-    measurementId: "G-8NM4ZMPQ0V"
+    messagingSenderId: "<YOUR MSG ID>",
+    appId: "<YOUR APPID>",
+    measurementId: "<YOUR MEASUREMENT ID>"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
